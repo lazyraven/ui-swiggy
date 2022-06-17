@@ -2,18 +2,21 @@
   <div>
     <Home></Home>
     <HelloWorld />
+    <CourseGoal></CourseGoal>
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Home from "./components/Home.vue";
+import CourseGoal from "./composition-api/CourseGoal.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     Home,
+    CourseGoal,
   },
 };
 </script>
