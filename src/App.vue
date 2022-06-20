@@ -1,8 +1,9 @@
 <template>
   <div>
+    <CourseGoal></CourseGoal>
+
     <Home></Home>
     <HelloWorld />
-    <CourseGoal></CourseGoal>
   </div>
 </template>
 
