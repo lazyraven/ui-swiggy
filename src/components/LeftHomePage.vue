@@ -9,12 +9,6 @@
       />
     </div>
     <div class="basis-1/4 m-2">
-      <!-- <button
-        type="button"
-        class="text-black text-base absolute font-semibold w-auto h-10 hover:text-orange-500"
-      >
-        Login
-      </button> -->
     </div>
     <div class="basis-1/4 m-2">
       <button
@@ -31,35 +25,22 @@
       </button>
     </div>
   </div>
-
-  <!-- <div class="flex flex-row relative">
-    <div class="w-2/3 float-right mt-12 inline-block basis-1/4">
-      <img
-        class="absolute left-0 ml-12 w-48 h-12 mt-12"
-        src="../assets/swiggy_logo.svg.png"
-      />
+  <div>
+  <h1>Hungry</h1>
+  <h1>Order food from favourite restaurants near you.</h1>
+   <div class="mb-4 mt-12">
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h" id="username" type="text" placeholder="Username">
+    <button
+        type="button"
+        class="text-white text-base bg-orange-600 px-8 py-2 font-sans absolute font-bold text-right"
+      >
+       FIND FOOD
+      </button>
     </div>
-    <div class="w-2/3 pr-14">
-      <div class="w-2/3 float-right mt-12 inline-block basis-1/4">
-        <button
-          type="button"
-          class="text-black text-sm absolute font-semibold w-auto h-10 text-right hover:text-orange-500"
-        >
-          Login
-        </button>
-      </div>
+    <h3>POPULAR CITIES IN INDIA</h3>
+    <h3>Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata MumbaiPune& more.</h3>
+  </div>
 
-      <div class="pr-14 w-2/3 float-right mt-12 inline-block basis-1/2">
-        <button
-          type="button"
-          class="text-white text-sm bg-black p-3 absolute font-semibold h-10 w-auto text-right mt-7"
-        >
-          Sign up
-        </button>
-      </div>
-    </div>
-  </div> -->
-  <!-- </div> -->
 </template>
 
 <script>
