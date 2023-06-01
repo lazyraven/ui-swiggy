@@ -3,16 +3,11 @@
     <form @submit.prevent="addGoal">
       <div>
         <label for="goaltext"></label>
-        <input
-          class="border-4"
-          type="text"
-          id="goaltext"
-          v-model="enteredText"
-        />
+        <input class="border-4" type="text" id="goaltext" v-model="enteredText" />
       </div>
       <p v-if="invalidInput">Please enter a valid goal text (non-empty).</p>
     </form>
-    <button type="button" class="bg-blue-100 p-2">Add Goal</button>
+    <button type="button" class="bg-blue-100 p-2" @click="addGoal()">Add Goal</button>
   </section>
 </template>
 
@@ -29,6 +24,7 @@ export default {
       }
     });
     function addGoal() {
+      console.log("addGoal called")
       invalidInput.value = false;
       if (enteredText.value === "") {
         invalidInput.value = true;

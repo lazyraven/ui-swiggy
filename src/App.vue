@@ -1,6 +1,6 @@
 <template>
   <div class="inline">
-    <!-- <CourseGoal></CourseGoal> -->
+    <CourseGoal></CourseGoal>
     <!-- <div class="flex flex-row">
       <div class="basis-1/4 bg-blue-400 m-2">
         01
@@ -21,14 +21,14 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Home from "./components/Home.vue";
-// import CourseGoal from "./composition-api/CourseGoal.vue";
+import CourseGoal from "./composition-api/CourseGoal.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
     Home,
-    // CourseGoal,
+    CourseGoal,
   },
 };
 </script>
